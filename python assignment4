@@ -2,7 +2,7 @@
    [] represents an empty list in Python.
    
 2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
-   To assign the value 'hello' as the third value in the list stored in the variable spam,       you  can use the index 2 (since indexing is zero-based in Python):
+   To assign the value 'hello' as the third value in the list stored in the variable spam,  you  can use the index 2 (since indexing is zero-based in Python):
    spam[2] = 'hello'
    
 
@@ -29,15 +29,15 @@ Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next thr
    The list concatenation operator is +, and the list replication operator is *.
     
 10. What is difference between the list methods append() and insert()?
-    The append() method adds an element to the end of a list, while the insert() method         allows you to insert an element at a specific index.
+    The append() method adds an element to the end of a list, while the insert() method allows you to insert an element at a specific index.
     
 11. What are the two methods for removing items from a list?
     The two methods for removing items from a list are:
     remove(): Removes the first occurrence of a specified value.
-    pop(): Removes and returns the item at a specified index (if index is not provided, it              removes the last item).
+    pop(): Removes and returns the item at a specified index (if index is not provided, it removes the last item).
     
 12. Describe how list values and string values are identical.
-    Both list values and string values are sequences, and they share some common                  characteristics:
+    Both list values and string values are sequences, and they share some common characteristics:
      They can be indexed and sliced.
      They support the len() function to get their length.
      They can be used in loops.
@@ -51,14 +51,14 @@ Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next thr
     my_tuple = (42,)
 
 15. How do you get a list value's tuple form? How do you get a tuple value's list form?
-    To convert a list value to a tuple, you can use the tuple() constructor, and to convert     a tuple value to a list, you can use the list() constructor:
+    To convert a list value to a tuple, you can use the tuple() constructor, and to convert a tuple value to a list, you can use the list() constructor:
       my_list = [1, 2, 3]
       my_tuple = tuple(my_list)
       my_list_again = list(my_tuple)
 
 16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
-    Variables that "contain" list values actually contain references to the lists, not the       lists themselves. The variable holds the memory address where the list is stored.
+    Variables that "contain" list values actually contain references to the lists, not the lists themselves. The variable holds the memory address where the list is stored.
     
 17. How do you distinguish between copy.copy() and copy.deepcopy()?
-    copy.copy() creates a shallow copy of a list, meaning it creates a new list but does not     create new copies of the objects inside the original list. copy.deepcopy() creates a         deep copy, which includes copies of the objects inside the original list, recursively       copying nested structures.
+    copy.copy() creates a shallow copy of a list, meaning it creates a new list but does not create new copies of the objects inside the original list. copy.deepcopy() creates a         deep copy, which includes copies of the objects inside the original list, recursively       copying nested structures.
 
